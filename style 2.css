@@ -1,0 +1,278 @@
+*
+{
+    margin: 0px;
+    padding: 0;
+}
+
+/*----------Navigation----------*/
+#nev-bar
+{
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand 
+{
+    color: #000 !important;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 16px;
+}
+
+.navbar-brand img
+{
+    width: 100px;
+    height: 50px;
+    padding-left: 0px;
+
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nev-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    background: #555;
+}
+.navbar-toggler
+{
+    border: none!imporant;
+}
+.nav-link
+{
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*--Slider--*/
+#slider
+{
+    width: 100%;
+}
+.carousel-caption
+{
+    top: 80%;
+    transform: translateY(-70%);
+    bottom: initial!important;
+}
+.carousel-caption h5
+{
+    font-size: 30px;
+    color: #fff;
+}
+/*--winter-workshop materials--*/
+.link-clubs
+{
+    color: crimson;
+    padding-bottom: 20px;
+}
+#workshop-materials
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/background2.gif);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#workshop-materials .icon:hover 
+{
+    background-image: url(images/back.gif);
+    background-image: text-center;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#workshop-materials .img::hower
+{
+    background: #fff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#workshop-materials h2
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#workshop-materials h2::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#workshop-materials .icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#workshop-materials .img
+{
+    font-size: 80px;
+    padding: 50px;
+    color: #fff;
+}
+.koss-python 
+{
+    padding: 80px;
+}
+.cv  
+{
+    padding: 80px;
+}
+.c-cv  
+{
+    padding: 80px;
+}
+/*--miscelenaous--*/
+#miscelenaous
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/background.gif);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#miscelenaous .icon:hover 
+{
+    background-image: url(images/back2.gif);
+    background-image: text-center;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#miscelenaous .img::hower
+{
+    background: #fff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#miscelenaous h2
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#miscelenaous h2::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#miscelenaous .icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#miscelenaous .img
+{
+    font-size: 80px;
+    padding: 50px;
+    color: #fff;
+}
+.koss-python 
+{
+    padding: 80px;
+}
+.cv  
+{
+    padding: 80px;
+}
+.c-cv  
+{
+    padding: 80px;
+}
+/*--head--*/
+.head
+{
+    padding-top: 20px;
+    margin: 0 auto 40px;
+    height: 90px;
+    max-width: 750px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0,0,50, 0.5);
+}
+/*--teams--*/
+#team
+{
+    margin: 50px 0;
+}
+.profile-pic
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+#team
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*--teams--*/
+#team h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#team h4
+{
+    padding-top: 10px;
+    color: red;
+}
+#team h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.
+/*--footer--*/
+#footer-1
+{
+    background-color: #333;
+    padding: 10px;
+}
+
+#footer-1 p
+{
+    color: #fff;
+    text-align: center;
+}
